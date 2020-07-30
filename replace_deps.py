@@ -14,7 +14,7 @@ replace_deps = {
     'libexpat1':                       'expat',                  #auto_translated
     'libffi-dev':                      'libffi',                 #auto_translated
     'libgcc-s1':                       None,                     #manually_mapped
-    'libgl1':                          'libgl1',                 #could_not_auto_translate
+    'libgl1':                          'libglvnd',               #manually_mapped
     'libglib2.0-0':                    'glib2',                  #auto_translated
     'libglide3':                       'libglide3',              #could_not_auto_translate
     'libgstreamer1.0-0':               'gstreamer',              #auto_translated
@@ -60,7 +60,7 @@ replace_deps = {
     'libxshmfence-dev':                'libxshmfence',           #auto_translated
     'libxxf86vm1':                     'libxxf86vm',             #auto_translated
     'libxxf86vm-dev':                  'libxxf86vm',             #auto_translated
-    'linux-firmware':                  None,                     #auto_translated
+    'linux-firmware':                  'linux-firmware',         #manually_mapped
     'x11proto-dri2-dev':               'x11proto-dri2-dev',      #could_not_auto_translate
     'x11proto-gl-dev':                 'x11proto-gl-dev',        #could_not_auto_translate
     'zlib1g':                          'zlib',                   #auto_translated

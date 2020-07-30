@@ -96,7 +96,7 @@ package_amdgpu-pro-core-meta () {
 package_amf-amdgpu-pro () {
     pkgdesc="AMDGPU Pro Advanced Multimedia Framework"
     license=('custom: AMDGPU-PRO EULA')
-    depends=("amdgpu-pro-core-meta=${major}_${minor}-${pkgrel}" "libgl1" "libx11" "opencl-amdgpu-pro-orca=${major}_${minor}-${pkgrel}" "opencl-amdgpu-pro-pal=${major}_${minor}-${pkgrel}" "vulkan-amdgpu-pro=${major}_${minor}-${pkgrel}")
+    depends=("amdgpu-pro-core-meta=${major}_${minor}-${pkgrel}" "libglvnd" "libx11" "opencl-amdgpu-pro-orca=${major}_${minor}-${pkgrel}" "opencl-amdgpu-pro-pal=${major}_${minor}-${pkgrel}" "vulkan-amdgpu-pro=${major}_${minor}-${pkgrel}")
 
     extract_deb "${srcdir}"/amdgpu-pro-${major}-${minor}-ubuntu-${ubuntu_ver}/amf-amdgpu-pro_${major}-${minor}_amd64.deb
     move_copyright
