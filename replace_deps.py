@@ -4,7 +4,7 @@
 replace_deps = {
     'binfmt-support':                  'opera',                  #auto_translated
     'dkms':                            'dkms',                   #auto_translated
-    'libc6':                           'glibc',                  #manually_mapped
+    'libc6':                           None,                     #manually_mapped
     'libc6-dev':                       None,                     #auto_translated
     'libc-dev':                        'c',                      #auto_translated
     'libcunit1':                       'cunit',                  #auto_translated
@@ -13,7 +13,7 @@ replace_deps = {
     'libelf1':                         'libelf',                 #auto_translated
     'libexpat1':                       'expat',                  #auto_translated
     'libffi-dev':                      'libffi',                 #auto_translated
-    'libgcc-s1':                       'gcc',                    #auto_translated
+    'libgcc-s1':                       None,                     #manually_mapped
     'libgl1':                          'libgl1',                 #could_not_auto_translate
     'libglib2.0-0':                    'glib2',                  #auto_translated
     'libglide3':                       'libglide3',              #could_not_auto_translate
@@ -22,7 +22,7 @@ replace_deps = {
     'libmirclient-dev':                'libmirclient-dev',       #could_not_auto_translate
     'libomxil-bellagio0':              'libomxil-bellagio',      #auto_translated
     'libselinux1':                     'libselinux',             #auto_translated
-    'libstdc++6':                      'gcc-libs',               #manually_mapped
+    'libstdc++6':                      None,                     #manually_mapped
     'libtinfo6':                       'ncurses',                #auto_translated
     'libtinfo-dev':                    'ncurses',                #manually_mapped
     'libtxc-dxtn0':                    None,                     #manually_mapped
